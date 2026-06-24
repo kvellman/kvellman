@@ -1,0 +1,24 @@
+# Local dev services for kvellman. M1 foundation: PostgreSQL only.
+# (MinIO/Redis are deliberately deferred to later increments.)
+services:
+  postgres:
+    image: postgres:16
+    container_name: kvellman-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: kvellman
+      POSTGRES_PASSWORD: kvellman
+      POSTGRES_DB: kvellman
+    # Host port 5440 to avoid colliding with other local Postgres instances (5432/5433 taken).
+    ports:
+      - "5440:5432"
+    volumes:
+      - kvellman-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kvellman -d kvellman"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  kvellman-pgdata:

@@ -1,0 +1,10 @@
+node_modules
+**/node_modules
+.output
+.nuxt
+.git
+data
+*.log
+.env
+.license-signing-key.pem
+Konzept_kvellman.pdf

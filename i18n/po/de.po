@@ -1,0 +1,1168 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: de\n"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Add entry"
+msgstr "Eintrag hinzufügen"
+
+msgid "Add installer"
+msgstr "Installer hinzufügen"
+
+msgid "Add locale"
+msgstr "Sprache hinzufügen"
+
+msgid "Add version"
+msgstr "Version hinzufügen"
+
+msgid "Apps & Features entries"
+msgstr "Apps-&-Features-Einträge"
+
+msgid "Arch"
+msgstr "Arch"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Copied raw manifest"
+msgstr "Rohmanifest kopiert"
+
+msgid "Copy"
+msgstr "Kopieren"
+
+msgid "Copyright"
+msgstr "Copyright"
+
+msgid "Copyright URL"
+msgstr "Copyright-URL"
+
+msgid "Create package"
+msgstr "Paket erstellen"
+
+msgid "Custom"
+msgstr "Eigen"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Default locale"
+msgstr "Standard-Sprache"
+
+msgid "Dependencies"
+msgstr "Abhängigkeiten"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Details →"
+msgstr "Details →"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Edit manifest"
+msgstr "Manifest bearbeiten"
+
+msgid "Failed to load packages"
+msgstr "Pakete konnten nicht geladen werden"
+
+msgid "Fill the form, paste YAML, or upload .yaml file(s)."
+msgstr "Formular ausfüllen, YAML einfügen oder .yaml-Datei(en) hochladen."
+
+msgid "Filter versions…"
+msgstr "Versionen filtern…"
+
+msgid "Hide"
+msgstr "Ausblenden"
+
+msgid "Identifier"
+msgstr "Bezeichner"
+
+msgid "Import (optional)"
+msgstr "Import (optional)"
+
+msgid "Installation notes"
+msgstr "Installationshinweise"
+
+msgid "Installer switches"
+msgstr "Installer-Switches"
+
+msgid "Installers"
+msgstr "Installer"
+
+msgid "Installers ({count})"
+msgstr "Installer ({count})"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "License"
+msgstr "Lizenz"
+
+msgid "License URL"
+msgstr "Lizenz-URL"
+
+msgid "Local file"
+msgstr "Lokale Datei"
+
+msgid "Locale"
+msgstr "Locale"
+
+msgid "Locales ({count})"
+msgstr "Sprachen ({count})"
+
+msgid "Locales:"
+msgstr "Sprachen:"
+
+msgid "Manifest"
+msgstr "Manifest"
+
+msgid "Manifest loaded — review and save"
+msgstr "Manifest geladen — prüfen und speichern"
+
+msgid "Manifest saved"
+msgstr "Manifest gespeichert"
+
+msgid "Manifest version"
+msgstr "Manifest-Version"
+
+msgid "Modified"
+msgstr "Geändert"
+
+msgid "Moniker"
+msgstr "Moniker"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "New package"
+msgstr "Neues Paket"
+
+msgid "No versions match “{query}”."
+msgstr "Keine Versionen passen zu „{query}“."
+
+msgid "Not spec-compliant against winget {version}"
+msgstr "Nicht spec-konform gegen winget {version}"
+
+msgid "Only Custom manifests can be edited. Upstream stays pristine; overlay editing arrives in M2."
+msgstr "Nur eigene Manifeste sind bearbeitbar. Upstream bleibt unverändert; Overlay-Bearbeitung kommt in M2."
+
+msgid "Origin"
+msgstr "Herkunft"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Own manifest, no external source"
+msgstr "Eigenes Manifest, keine externe Quelle"
+
+msgid "Package"
+msgstr "Paket"
+
+msgid "Package URL"
+msgstr "Paket-URL"
+
+msgid "Package dependencies"
+msgstr "Paketabhängigkeiten"
+
+msgid "Package identifier"
+msgstr "Paket-Bezeichner"
+
+msgid "Package name"
+msgstr "Paketname"
+
+msgid "Package not found"
+msgstr "Paket nicht gefunden"
+
+msgid "Packages"
+msgstr "Pakete"
+
+msgid "Parse failed"
+msgstr "Parsen fehlgeschlagen"
+
+msgid "Paste a singleton manifest, or multiple winget files separated by '---'…"
+msgstr "Ein Singleton-Manifest einfügen oder mehrere winget-Dateien, getrennt durch '---'…"
+
+msgid "Prefilled from the latest version ({version}) — enter the new version number and adjust as needed."
+msgstr "Aus der letzten Version ({version}) vorbefüllt — neue Versionsnummer eingeben und bei Bedarf anpassen."
+
+msgid "Preserved (visible in raw YAML, not edited here):"
+msgstr "Erhalten (im Roh-YAML sichtbar, hier nicht bearbeitbar):"
+
+msgid "Privacy URL"
+msgstr "Datenschutz-URL"
+
+msgid "Publisher"
+msgstr "Herausgeber"
+
+msgid "Publisher URL"
+msgstr "Herausgeber-URL"
+
+msgid "Publisher support URL"
+msgstr "Herausgeber-Support-URL"
+
+msgid "Purchase URL"
+msgstr "Kauf-URL"
+
+msgid "Raw manifest"
+msgstr "Rohmanifest"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Release notes"
+msgstr "Versionshinweise"
+
+msgid "Release notes URL"
+msgstr "Versionshinweise-URL"
+
+msgid "Save failed"
+msgstr "Speichern fehlgeschlagen"
+
+msgid "Save manifest"
+msgstr "Manifest speichern"
+
+msgid "Set default"
+msgstr "Als Standard setzen"
+
+msgid "Short description"
+msgstr "Kurzbeschreibung"
+
+msgid "Show"
+msgstr "Anzeigen"
+
+msgid "Show optional fields"
+msgstr "Optionale Felder anzeigen"
+
+msgid "Singleton YAML · stored form (placeholders unresolved)"
+msgstr "Singleton-YAML · gespeicherte Form (Platzhalter nicht aufgelöst)"
+
+msgid "Spec issues ({count})"
+msgstr "Spec-Probleme ({count})"
+
+msgid "Spec valid · {version}"
+msgstr "Spec gültig · {version}"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Tags (comma-separated)"
+msgstr "Tags (kommagetrennt)"
+
+msgid "This version is read-only"
+msgstr "Diese Version ist schreibgeschützt"
+
+msgid "Toggle theme"
+msgstr "Design umschalten"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Unmodified upstream manifest"
+msgstr "Unverändertes Upstream-Manifest"
+
+msgid "Upload .yaml file(s)"
+msgstr ".yaml-Datei(en) hochladen"
+
+msgid "Upstream manifest with local changes"
+msgstr "Upstream-Manifest mit lokalen Änderungen"
+
+msgid "Validate & load pasted YAML"
+msgstr "Eingefügtes YAML prüfen & laden"
+
+msgid "Validation failed"
+msgstr "Validierung fehlgeschlagen"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Version not found"
+msgstr "Version nicht gefunden"
+
+msgid "Versions ({count})"
+msgstr "Versionen ({count})"
+
+msgid "default"
+msgstr "Standard"
+
+msgid "or"
+msgstr "oder"
+
+msgid "{count} packages"
+msgstr "{count} Pakete"
+
+msgid "← Back to packages"
+msgstr "← Zurück zu Paketen"
+
+msgid "← Back to version"
+msgstr "← Zurück zur Version"
+
+msgid "← Back to {name}"
+msgstr "← Zurück zu {name}"
+
+msgid "Upload file"
+msgstr "Datei hochladen"
+
+msgid "Replace file"
+msgstr "Datei ersetzen"
+
+msgid "Remove file"
+msgstr "Datei entfernen"
+
+msgid "Installer file uploaded"
+msgstr "Installer-Datei hochgeladen"
+
+msgid "Local file removed"
+msgstr "Lokale Datei entfernt"
+
+msgid "Upload failed"
+msgstr "Upload fehlgeschlagen"
+
+msgid "Remove failed"
+msgstr "Entfernen fehlgeschlagen"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Delete version?"
+msgstr "Version löschen?"
+
+msgid "Delete package?"
+msgstr "Paket löschen?"
+
+msgid "This permanently deletes this version, its installers/locales and any stored files."
+msgstr "Löscht diese Version, ihre Installer/Locales und gespeicherte Dateien dauerhaft."
+
+msgid "This permanently deletes the package and all its versions."
+msgstr "Löscht das Paket und alle seine Versionen dauerhaft."
+
+msgid "Version deleted"
+msgstr "Version gelöscht"
+
+msgid "Package deleted"
+msgstr "Paket gelöscht"
+
+msgid "Delete failed"
+msgstr "Löschen fehlgeschlagen"
+
+msgid "Saving changes to an upstream version creates a local overlay; the original stays recoverable."
+msgstr "Änderungen an einer Upstream-Version erzeugen ein lokales Overlay; das Original bleibt wiederherstellbar."
+
+msgid "Customizations"
+msgstr "Anpassungen"
+
+msgid "Reset to upstream"
+msgstr "Auf Upstream zurücksetzen"
+
+msgid "Reset to upstream?"
+msgstr "Auf Upstream zurücksetzen?"
+
+msgid "This discards all customizations and restores the original upstream manifest."
+msgstr "Verwirft alle Anpassungen und stellt das ursprüngliche Upstream-Manifest wieder her."
+
+msgid "Reset complete"
+msgstr "Zurücksetzen abgeschlossen"
+
+msgid "Reset failed"
+msgstr "Zurücksetzen fehlgeschlagen"
+
+msgid "Field"
+msgstr "Feld"
+
+msgid "Upstream"
+msgstr "Upstream"
+
+msgid "Overlay"
+msgstr "Overlay"
+
+msgid "Import from winget-pkgs"
+msgstr "Aus winget-pkgs importieren"
+
+msgid "Import a package's manifest from the public winget-pkgs repository."
+msgstr "Manifest eines Pakets aus dem öffentlichen winget-pkgs-Repository importieren."
+
+msgid "Look up"
+msgstr "Suchen"
+
+msgid "No versions found upstream — check the identifier."
+msgstr "Keine Versionen upstream gefunden — Bezeichner prüfen."
+
+msgid "Import"
+msgstr "Importieren"
+
+msgid "Package imported"
+msgstr "Paket importiert"
+
+msgid "Import failed"
+msgstr "Import fehlgeschlagen"
+
+msgid "Lookup failed"
+msgstr "Suche fehlgeschlagen"
+
+msgid "Sync catalog"
+msgstr "Katalog synchronisieren"
+
+msgid "Catalog synced ({count} packages)"
+msgstr "Katalog synchronisiert ({count} Pakete)"
+
+msgid "Sync failed"
+msgstr "Synchronisierung fehlgeschlagen"
+
+msgid "{count} packages in catalog"
+msgstr "{count} Pakete im Katalog"
+
+msgid "Catalog is empty — sync it to enable search."
+msgstr "Katalog ist leer — synchronisieren, um die Suche zu aktivieren."
+
+msgid "Search packages"
+msgstr "Pakete suchen"
+
+msgid "Search the winget catalog…"
+msgstr "Im winget-Katalog suchen…"
+
+msgid "Or enter a package identifier manually"
+msgstr "Oder Paket-Bezeichner manuell eingeben"
+
+msgid "Upstream: {value}"
+msgstr "Upstream: {value}"
+
+msgid "Customizations ({count})"
+msgstr "Anpassungen ({count})"
+
+msgid "Fields overridden vs. the upstream manifest."
+msgstr "Gegenüber dem Upstream-Manifest überschriebene Felder."
+
+msgid "Auto-sync: every {hours} h"
+msgstr "Auto-Sync: alle {hours} h"
+
+msgid "Auto-sync off"
+msgstr "Auto-Sync aus"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Overview of your repository."
+msgstr "Überblick über dein Repository."
+
+msgid "Versions"
+msgstr "Versionen"
+
+msgid "Catalog packages"
+msgstr "Katalog-Pakete"
+
+msgid "Versions by origin"
+msgstr "Versionen nach Herkunft"
+
+msgid "{hosted} of {total} installers hosted locally"
+msgstr "{hosted} von {total} Installern lokal gehostet"
+
+msgid "Catalog last synced: {time}"
+msgstr "Katalog zuletzt synchronisiert: {time}"
+
+msgid "Recent activity"
+msgstr "Letzte Aktivität"
+
+msgid "No activity yet."
+msgstr "Noch keine Aktivität."
+
+msgid "Download & install telemetry will appear here once client telemetry is enabled (M3)."
+msgstr "Download- & Installations-Telemetrie erscheint hier, sobald die Client-Telemetrie aktiviert ist (M3)."
+
+msgid "Usage"
+msgstr "Nutzung"
+
+msgid "Observed winget requests"
+msgstr "Beobachtete winget-Anfragen"
+
+msgid "Telemetry is off — set TELEMETRY_ENABLED=true to record repository usage."
+msgstr "Telemetrie ist aus — TELEMETRY_ENABLED=true setzen, um die Repository-Nutzung zu erfassen."
+
+msgid "No usage recorded yet — events appear once winget clients query this source."
+msgstr "Noch keine Nutzung erfasst — Ereignisse erscheinen, sobald winget-Clients diese Quelle abfragen."
+
+msgid "Searches"
+msgstr "Suchen"
+
+msgid "Manifest fetches"
+msgstr "Manifest-Abrufe"
+
+msgid "Installer downloads"
+msgstr "Installer-Downloads"
+
+msgid "Top packages"
+msgstr "Top-Pakete"
+
+msgid "Fetches"
+msgstr "Abrufe"
+
+msgid "Downloads"
+msgstr "Downloads"
+
+msgid "winget versions"
+msgstr "winget-Versionen"
+
+msgid "Sites"
+msgstr "Standorte"
+
+msgid "Updates available"
+msgstr "Updates verfügbar"
+
+msgid "All packages are up to date."
+msgstr "Alle Pakete sind aktuell."
+
+msgid "Update: {version}"
+msgstr "Update: {version}"
+
+msgid "Update available: {version}"
+msgstr "Update verfügbar: {version}"
+
+msgid "A newer version is available upstream (current: {version})."
+msgstr "Eine neuere Version ist upstream verfügbar (aktuell: {version})."
+
+msgid "Import {version}"
+msgstr "{version} importieren"
+
+msgid "Approved"
+msgstr "Freigegeben"
+
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+msgid "Pending review"
+msgstr "Prüfung ausstehend"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Approve"
+msgstr "Freigeben"
+
+msgid "Reject"
+msgstr "Ablehnen"
+
+msgid "Reset review"
+msgstr "Prüfung zurücksetzen"
+
+msgid "Review updated"
+msgstr "Prüfung aktualisiert"
+
+msgid "Review failed"
+msgstr "Prüfung fehlgeschlagen"
+
+msgid "Not delivered to winget clients until approved."
+msgstr "Wird erst nach Freigabe an winget-Clients ausgeliefert."
+
+msgid "Reviewed by {by} at {time}"
+msgstr "Geprüft von {by} am {time}"
+
+msgid "Pending approvals"
+msgstr "Ausstehende Freigaben"
+
+msgid "Review"
+msgstr "Prüfen"
+
+msgid "Sign in to kvellman"
+msgstr "Bei kvellman anmelden"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Sign in"
+msgstr "Anmelden"
+
+msgid "Sign out"
+msgstr "Abmelden"
+
+msgid "Invalid email or password"
+msgstr "Ungültige E-Mail oder Passwort"
+
+msgid "Welcome to kvellman"
+msgstr "Willkommen bei kvellman"
+
+msgid "Create the first administrator account."
+msgstr "Erstelle das erste Administrator-Konto."
+
+msgid "Optional"
+msgstr "Optional"
+
+msgid "At least 8 characters"
+msgstr "Mindestens 8 Zeichen"
+
+msgid "Create account"
+msgstr "Konto erstellen"
+
+msgid "Setup failed"
+msgstr "Einrichtung fehlgeschlagen"
+
+msgid "Users"
+msgstr "Benutzer"
+
+msgid "Viewer"
+msgstr "Betrachter"
+
+msgid "Reviewer"
+msgstr "Prüfer"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Manage accounts and roles."
+msgstr "Konten und Rollen verwalten."
+
+msgid "Add user"
+msgstr "Benutzer hinzufügen"
+
+msgid "Role"
+msgstr "Rolle"
+
+msgid "Created"
+msgstr "Erstellt"
+
+msgid "You"
+msgstr "Du"
+
+msgid "Delete user?"
+msgstr "Benutzer löschen?"
+
+msgid "This permanently removes {email}."
+msgstr "Entfernt {email} dauerhaft."
+
+msgid "User created"
+msgstr "Benutzer erstellt"
+
+msgid "Create failed"
+msgstr "Erstellen fehlgeschlagen"
+
+msgid "Role updated"
+msgstr "Rolle aktualisiert"
+
+msgid "Update failed"
+msgstr "Aktualisierung fehlgeschlagen"
+
+msgid "User deleted"
+msgstr "Benutzer gelöscht"
+
+msgid "Audit log"
+msgstr "Audit-Log"
+
+msgid "Every mutating action, newest first."
+msgstr "Jede ändernde Aktion, neueste zuerst."
+
+msgid "Action"
+msgstr "Aktion"
+
+msgid "e.g. approval, manifest, package"
+msgstr "z. B. approval, manifest, package"
+
+msgid "Filter by identifier…"
+msgstr "Nach Bezeichner filtern…"
+
+msgid "Time"
+msgstr "Zeit"
+
+msgid "Actor"
+msgstr "Akteur"
+
+msgid "Detail"
+msgstr "Detail"
+
+msgid "No matching entries."
+msgstr "Keine passenden Einträge."
+
+msgid "View all"
+msgstr "Alle anzeigen"
+
+msgid "All actions"
+msgstr "Alle Aktionen"
+
+msgid "Search action"
+msgstr "Aktion suchen"
+
+msgid "e.g. crea, delete, sync"
+msgstr "z. B. crea, delete, sync"
+
+msgid "Filter by actor…"
+msgstr "Nach Akteur filtern…"
+
+msgid "From"
+msgstr "Von"
+
+msgid "To"
+msgstr "Bis"
+
+msgid "Repeat password"
+msgstr "Passwort wiederholen"
+
+msgid "Passwords do not match"
+msgstr "Passwörter stimmen nicht überein"
+
+msgid "Upload the installer to compute it automatically"
+msgstr "Installer hochladen, um ihn automatisch zu berechnen"
+
+msgid "Compute from file"
+msgstr "Aus Datei berechnen"
+
+msgid "SHA256 computed"
+msgstr "SHA256 berechnet"
+
+msgid "Could not compute hash"
+msgstr "Hash konnte nicht berechnet werden"
+
+msgid "Upload installer"
+msgstr "Installer hochladen"
+
+msgid "Installer stored"
+msgstr "Installer gespeichert"
+
+msgid "Stored locally: {file}"
+msgstr "Lokal gespeichert: {file}"
+
+msgid "Enter the package identifier and version first"
+msgstr "Zuerst Paket-Bezeichner und Version eingeben"
+
+msgid "Upload the installer to store it and fill the SHA256 automatically"
+msgstr "Installer hochladen, um ihn zu speichern und den SHA256 automatisch zu füllen"
+
+msgid "Filter by name, publisher or tag…"
+msgstr "Nach Name, Herausgeber oder Tag filtern…"
+
+msgid "No packages match “{query}”."
+msgstr "Keine Pakete passen zu „{query}“."
+
+msgid "No packages yet."
+msgstr "Noch keine Pakete."
+
+msgid "History"
+msgstr "Verlauf"
+
+msgid "Approve version"
+msgstr "Version freigeben"
+
+msgid "Reject version"
+msgstr "Version ablehnen"
+
+msgid "Reason for approval"
+msgstr "Begründung für Freigabe"
+
+msgid "Reason for rejection"
+msgstr "Begründung für Ablehnung"
+
+msgid "Why is this version approved?"
+msgstr "Warum wird diese Version freigegeben?"
+
+msgid "Why is this version rejected?"
+msgstr "Warum wird diese Version abgelehnt?"
+
+msgid "Instructions"
+msgstr "Anleitung"
+
+msgid "Add kvellman as an additional winget source — no client changes required."
+msgstr "kvellman als zusätzliche winget-Quelle hinzufügen — keine Client-Änderungen nötig."
+
+msgid "1. Choose a site"
+msgstr "1. Standort wählen"
+
+msgid "The site token in the URL selects the location context (mirror, locale). Pick the site this machine belongs to."
+msgstr "Der Site-Token in der URL wählt den Standort-Kontext (Mirror, Sprache). Wähle den Standort dieses Rechners."
+
+msgid "No site tokens configured yet — the command below uses a placeholder."
+msgstr "Noch keine Site-Tokens konfiguriert — der Befehl unten nutzt einen Platzhalter."
+
+msgid "2. Register the source"
+msgstr "2. Quelle registrieren"
+
+msgid "Run this once in an elevated PowerShell / terminal:"
+msgstr "Einmalig in einer PowerShell/Terminal mit Adminrechten ausführen:"
+
+msgid "Source URL: {url}"
+msgstr "Quell-URL: {url}"
+
+msgid "3. Use it"
+msgstr "3. Verwenden"
+
+msgid "List configured sources"
+msgstr "Konfigurierte Quellen auflisten"
+
+msgid "Search this source"
+msgstr "Diese Quelle durchsuchen"
+
+msgid "Install from this source"
+msgstr "Aus dieser Quelle installieren"
+
+msgid "Upgrade all"
+msgstr "Alle aktualisieren"
+
+msgid "Remove the source"
+msgstr "Quelle entfernen"
+
+msgid "Copied"
+msgstr "Kopiert"
+
+msgid "Self-hosted winget-compatible repository"
+msgstr "Selbstgehostetes, winget-kompatibles Repository"
+
+msgid "Site tokens"
+msgstr "Site-Tokens"
+
+msgid "Tokens select the per-site delivery context used in source URLs."
+msgstr "Tokens wählen den Standort-Kontext, der in den Quell-URLs verwendet wird."
+
+msgid "Add site token"
+msgstr "Site-Token hinzufügen"
+
+msgid "Token"
+msgstr "Token"
+
+msgid "Optional — generated if empty"
+msgstr "Optional — wird generiert, wenn leer"
+
+msgid "Site"
+msgstr "Standort"
+
+msgid "Location"
+msgstr "Ort"
+
+msgid "Repo URL"
+msgstr "Repo-URL"
+
+msgid "Mirror installers locally"
+msgstr "Installer lokal spiegeln"
+
+msgid "Copy URL"
+msgstr "URL kopieren"
+
+msgid "No site tokens yet."
+msgstr "Noch keine Site-Tokens."
+
+msgid "Edit site token"
+msgstr "Site-Token bearbeiten"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Revoke site token?"
+msgstr "Site-Token widerrufen?"
+
+msgid "Clients using “{token}” will fall back to the default context."
+msgstr "Clients mit „{token}“ fallen auf den Standard-Kontext zurück."
+
+msgid "Revoke"
+msgstr "Widerrufen"
+
+msgid "Site token created"
+msgstr "Site-Token erstellt"
+
+msgid "Site token updated"
+msgstr "Site-Token aktualisiert"
+
+msgid "Site token revoked"
+msgstr "Site-Token widerrufen"
+
+msgid "Mirror installers locally (planned)"
+msgstr "Installer lokal spiegeln (geplant)"
+
+msgid "Not active yet — reserved for Enterprise edge/mirror nodes."
+msgstr "Noch nicht aktiv — reserviert für Enterprise Edge-/Mirror-Nodes."
+
+msgid "Edge nodes"
+msgstr "Edge-Nodes"
+
+msgid "Local mirror nodes that cache from this origin."
+msgstr "Lokale Mirror-Nodes, die von diesem Origin cachen."
+
+msgid "Register node"
+msgstr "Node registrieren"
+
+msgid "Enrollment key for “{name}” — shown once"
+msgstr "Enrollment-Key für „{name}“ — nur einmal sichtbar"
+
+msgid "Provide it to the node at install time (with ORIGIN_URL):"
+msgstr "Dem Node bei der Installation übergeben (mit ORIGIN_URL):"
+
+msgid "Dismiss"
+msgstr "Schließen"
+
+msgid "Last seen"
+msgstr "Zuletzt gesehen"
+
+msgid "Enrolled"
+msgstr "Registriert"
+
+msgid "node.pending"
+msgstr "Ausstehend"
+
+msgid "node.active"
+msgstr "Aktiv"
+
+msgid "node.revoked"
+msgstr "Widerrufen"
+
+msgid "No nodes registered yet."
+msgstr "Noch keine Nodes registriert."
+
+msgid "Node revoked"
+msgstr "Node widerrufen"
+
+msgid "Revoke node?"
+msgstr "Node widerrufen?"
+
+msgid "“{name}” will lose access immediately."
+msgstr "„{name}“ verliert sofort den Zugriff."
+
+msgid "Scope"
+msgstr "Umfang"
+
+msgid "All packages"
+msgstr "Alle Pakete"
+
+msgid "{pkgs} pkgs · {tags} tags"
+msgstr "{pkgs} Pakete · {tags} Tags"
+
+msgid "Scope updated"
+msgstr "Umfang aktualisiert"
+
+msgid "Package scope — {name}"
+msgstr "Paket-Umfang — {name}"
+
+msgid "Mirror all approved packages"
+msgstr "Alle freigegebenen Pakete spiegeln"
+
+msgid "Selected packages are always included"
+msgstr "Ausgewählte Pakete sind immer enthalten"
+
+msgid "Also include packages with any of these tags (comma-separated)"
+msgstr "Zusätzlich Pakete mit einem dieser Tags einschließen (kommagetrennt)"
+
+msgid "The node mirrors the union of selected packages and tag matches."
+msgstr "Der Node spiegelt die Vereinigung aus ausgewählten Paketen und Tag-Treffern."
+
+msgid "{online} of {total} online"
+msgstr "{online} von {total} online"
+
+msgid "{n} pkgs"
+msgstr "{n} Pakete"
+
+msgid "online"
+msgstr "online"
+
+msgid "last seen {time}"
+msgstr "zuletzt gesehen {time}"
+
+msgid "License"
+msgstr "Lizenz"
+
+msgid "Activate paid plugins with a signed license. Works offline."
+msgstr "Bezahlte Plugins mit einer signierten Lizenz aktivieren. Funktioniert offline."
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Expired"
+msgstr "Abgelaufen"
+
+msgid "Valid until: {date}"
+msgstr "Gültig bis: {date}"
+
+msgid "Entitlements"
+msgstr "Berechtigungen"
+
+msgid "Remove license"
+msgstr "Lizenz entfernen"
+
+msgid "No license installed — running the open-core edition."
+msgstr "Keine Lizenz installiert — Open-Core-Edition aktiv."
+
+msgid "Install license"
+msgstr "Lizenz installieren"
+
+msgid "Paste your license token…"
+msgstr "Lizenz-Token einfügen…"
+
+msgid "License installed"
+msgstr "Lizenz installiert"
+
+msgid "Invalid license"
+msgstr "Ungültige Lizenz"
+
+msgid "License removed"
+msgstr "Lizenz entfernt"
+
+msgid "never"
+msgstr "nie"
+
+msgid "Sign in with {provider}"
+msgstr "Anmelden mit {provider}"
+
+msgid "Mirrored"
+msgstr "Gespiegelt"
+
+msgid "{n} installers"
+msgstr "{n} Installer"
+
+msgid "Mirrored installers — {name}"
+msgstr "Gespiegelte Installer — {name}"
+
+msgid "Installers cached locally on this node (available from the LAN)."
+msgstr "Lokal auf diesem Node zwischengespeicherte Installer (aus dem LAN verfügbar)."
+
+msgid "Push"
+msgstr "Übertragen"
+
+msgid "Push installer to {name}"
+msgstr "Installer auf {name} übertragen"
+
+msgid "Pre-stage a version’s installers on this node so the first install is already local."
+msgstr "Installer einer Version vorab auf diesem Node bereitstellen, damit schon die erste Installation lokal läuft."
+
+msgid "Select a version"
+msgstr "Version wählen"
+
+msgid "Select a package first"
+msgstr "Zuerst ein Paket wählen"
+
+msgid "Mirror requested ({n} installers)"
+msgstr "Spiegelung angefordert ({n} Installer)"
+
+msgid "Push failed"
+msgstr "Übertragung fehlgeschlagen"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Total: {size}"
+msgstr "Gesamt: {size}"
+
+msgid "Removal requested"
+msgstr "Entfernung angefordert"
+
+msgid "Removal failed"
+msgstr "Entfernung fehlgeschlagen"
+
+msgid "+{n} pending"
+msgstr "+{n} ausstehend"
+
+msgid "Pending push"
+msgstr "Ausstehende Übertragung"
+
+msgid "pending"
+msgstr "ausstehend"
+
+msgid "Node"
+msgstr "Node"
+
+msgid "Indexed"
+msgstr "Indiziert"
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid "Mirrored packages (scope)"
+msgstr "Gespiegelte Pakete (Scope)"
+
+msgid "All approved packages are in this node’s scope. Turn the switch off to choose individually."
+msgstr "Alle freigegebenen Pakete sind im Scope dieses Nodes. Schalter ausschalten, um einzeln zu wählen."
+
+msgid "Available"
+msgstr "Verfügbar"
+
+msgid "Nothing to add."
+msgstr "Nichts hinzuzufügen."
+
+msgid "Added"
+msgstr "Hinzugefügt"
+
+msgid "No packages selected."
+msgstr "Keine Pakete ausgewählt."
+
+msgid "Also mirror packages with any of these tags (comma-separated)"
+msgstr "Auch Pakete mit einem dieser Tags spiegeln (kommagetrennt)"
+
+msgid "Versions of {pkg}"
+msgstr "Versionen von {pkg}"
+
+msgid "Loading…"
+msgstr "Lädt…"
+
+msgid "No approved versions."
+msgstr "Keine freigegebenen Versionen."
+
+msgid "local"
+msgstr "lokal"
+
+msgid "lazy (on demand)"
+msgstr "bei Bedarf"
+
+msgid "Mirror"
+msgstr "Spiegeln"
+
+msgid "Architecture"
+msgstr "Architektur"
+
+msgid "No installers."
+msgstr "Keine Installer."
+
+msgid "Select a package on the right to manage its versions."
+msgstr "Paket rechts auswählen, um seine Versionen zu verwalten."
+
+msgid "Architectures"
+msgstr "Architekturen"
+
+msgid "Empty = all. Only mirror these installer architectures."
+msgstr "Leer = alle. Nur diese Installer-Architekturen spiegeln."
+
+msgid "All architectures"
+msgstr "Alle Architekturen"
+
+msgid "Installer scope"
+msgstr "Installer-Scope"
+
+msgid "Empty = all. Only mirror these installer scopes."
+msgstr "Leer = alle. Nur diese Installer-Scopes spiegeln."
+
+msgid "All scopes"
+msgstr "Alle Scopes"
+
+msgid "Overlay template"
+msgstr "Overlay-Vorlage"
+
+msgid "From version {v}"
+msgstr "Aus Version {v}"
+
+msgid "Apply template"
+msgstr "Vorlage anwenden"
+
+msgid "New value"
+msgstr "Neuer Wert"
+
+msgid "Previous"
+msgstr "Vorher"
+
+msgid "Template applied ({n} fields)"
+msgstr "Vorlage angewendet ({n} Felder)"
+
+msgid "No installers match the template architectures"
+msgstr "Keine Installer passen zu den Architekturen der Vorlage"
+
+msgid "Save as template"
+msgstr "Als Vorlage speichern"
+
+msgid "Saved as package template ({n} fields)"
+msgstr "Als Paket-Vorlage gespeichert ({n} Felder)"

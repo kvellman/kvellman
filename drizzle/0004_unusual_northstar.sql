@@ -1,0 +1,1 @@
+ALTER TABLE "versions" ADD COLUMN "upstream_snapshot" jsonb;

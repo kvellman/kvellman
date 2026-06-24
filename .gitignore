@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Nuxt / Nitro build artifacts
+.nuxt/
+.nitro/
+.output/
+dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Private keys — NEVER commit (any TLS key here is regenerable)
+*.key
+*-key.pem
+**/certs/key.pem
+
+# Local installer-binary store (origin storage)
+data/
+
+# Logs & misc
+*.log
+.DS_Store
+
+# Workspace package build output
+packages/*/dist
+
+# Vendor license signing key (keep secret, never commit)
+.license-signing-key.pem

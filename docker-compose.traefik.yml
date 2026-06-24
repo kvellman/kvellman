@@ -1,0 +1,82 @@
+# kvellman origin behind an EXISTING Traefik instance (no Caddy).
+#
+# Use this instead of docker-compose.yml when Traefik already owns ports 80/443 and handles TLS.
+# Traefik routes to the app over a shared docker network; this stack publishes no host ports.
+#
+#   docker compose -f docker-compose.traefik.yml --env-file .env.deploy up -d --build
+#
+# Required in .env.deploy (in addition to the usual vars):
+#   DOMAIN, NUXT_SESSION_PASSWORD, POSTGRES_PASSWORD
+#   TRAEFIK_NETWORK      name of Traefik's external docker network (e.g. traefik / proxy / web)
+#   TRAEFIK_CERTRESOLVER name of the Traefik certificatesResolver that issues certs (e.g. letsencrypt)
+#   TRAEFIK_ENTRYPOINT   the https entrypoint name in your Traefik config (commonly websecure)
+
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: kvellman
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+      POSTGRES_DB: kvellman
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - internal
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U kvellman']
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  app:
+    # Set KVELLMAN_IMAGE to your registry path on the server; build: . is only used for local builds.
+    image: ${KVELLMAN_IMAGE:-kvellman:latest}
+    build: .
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://kvellman:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}@postgres:5432/kvellman
+      NUXT_SESSION_PASSWORD: ${NUXT_SESSION_PASSWORD:?set a 32+ char secret}
+      # Public URL Traefik serves this app on (used to resolve $REPO_URL and installer links).
+      NUXT_REPO_URL: https://${DOMAIN:?set DOMAIN, e.g. repo.example.com}
+      NUXT_INSTALLER_STORE: /data/installers
+      NUXT_PKI_DIR: /data/pki
+      # Optional toggles. Nitro only overrides runtimeConfig via the NUXT_ prefix at runtime, so the
+      # friendly names from .env are mapped here. Defaults keep them off/unset.
+      NUXT_TELEMETRY_ENABLED: ${TELEMETRY_ENABLED:-false}
+      NUXT_TELEMETRY_RETENTION_DAYS: ${TELEMETRY_RETENTION_DAYS:-90}
+      NUXT_CATALOG_SYNC_ENABLED: ${CATALOG_SYNC_ENABLED:-false}
+      NUXT_CATALOG_SYNC_INTERVAL_HOURS: ${CATALOG_SYNC_INTERVAL_HOURS:-6}
+      NUXT_GITHUB_TOKEN: ${GITHUB_TOKEN:-}
+      HOST: 0.0.0.0
+      PORT: '3000'
+    volumes:
+      - installers:/data/installers
+      - pki:/data/pki
+    networks:
+      - internal
+      - traefik
+    labels:
+      - traefik.enable=true
+      # Route on the shared Traefik network (disambiguates when a container has several networks).
+      - traefik.docker.network=${TRAEFIK_NETWORK:?set TRAEFIK_NETWORK}
+      - traefik.http.routers.kvellman.rule=Host(`${DOMAIN}`)
+      - traefik.http.routers.kvellman.entrypoints=${TRAEFIK_ENTRYPOINT:-websecure}
+      - traefik.http.routers.kvellman.tls=true
+      - traefik.http.routers.kvellman.tls.certresolver=${TRAEFIK_CERTRESOLVER:?set TRAEFIK_CERTRESOLVER}
+      # Traefik must forward to the app's container port 3000.
+      - traefik.http.services.kvellman.loadbalancer.server.port=3000
+
+networks:
+  internal:
+  traefik:
+    external: true
+    name: ${TRAEFIK_NETWORK:?set TRAEFIK_NETWORK}
+
+volumes:
+  pgdata:
+  installers:
+  pki:

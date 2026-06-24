@@ -1,0 +1,1 @@
+ALTER TABLE "versions" ADD COLUMN "origin" text DEFAULT 'local' NOT NULL;

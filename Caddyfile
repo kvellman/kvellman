@@ -1,0 +1,10 @@
+# Reverse proxy with automatic HTTPS (Let's Encrypt) for the kvellman origin.
+# DOMAIN is injected from the environment (see docker-compose.yml).
+{$DOMAIN} {
+	encode zstd gzip
+	# Installer downloads can be large; do not buffer/limit.
+	request_body {
+		max_size 0
+	}
+	reverse_proxy app:3000
+}

@@ -1,0 +1,52 @@
+{
+  "name": "kvellman",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-hosted, winget-compatible package repository platform",
+  "packageManager": "pnpm@10.26.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "typecheck": "nuxt typecheck",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx scripts/seed.ts",
+    "i18n:compile": "tsx scripts/compile-i18n.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@kvellman/winget-contract": "workspace:*",
+    "@nuxt/ui": "^4.8.2",
+    "@nuxtjs/i18n": "^10.4.0",
+    "@octokit/rest": "^22.0.1",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "drizzle-orm": "^0.45.2",
+    "fflate": "^0.8.3",
+    "gettext-parser": "^9.0.2",
+    "node-forge": "^1.4.0",
+    "nuxt": "^4.4.8",
+    "nuxt-auth-utils": "^0.5.29",
+    "postgres": "^3.4.9",
+    "sql.js": "^1.14.1",
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.111",
+    "@types/gettext-parser": "^9.0.0",
+    "@types/node": "^25.9.2",
+    "@types/node-forge": "^1.3.14",
+    "@types/sql.js": "^1.4.11",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8",
+    "vue-tsc": "^3.3.4"
+  }
+}

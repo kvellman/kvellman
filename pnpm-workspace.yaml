@@ -1,0 +1,9 @@
+packages:
+  - packages/*
+
+# Allow build scripts only for these deps (pnpm 10 blocks all by default; a clean CI/Docker install
+# fails otherwise). esbuild + vue-demi are needed for the Nuxt build.
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - vue-demi

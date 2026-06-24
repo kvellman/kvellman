@@ -1,0 +1,28 @@
+{
+  "name": "@kvellman/winget-contract",
+  "version": "0.1.2",
+  "description": "winget REST source contract — request/response types + winget-aware version comparison, shared by the kvellman origin and edge/mirror nodes",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["winget", "kvellman", "rest-source"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
